@@ -1,0 +1,47 @@
+*{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.logo{
+    margin-left: 10px;
+    display:flex;
+}
+.main-header{
+    background-color: #f6f6f6;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.main-nav {
+    display: flex; 
+}
+
+.main-nav-list {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+
+    
+}
+
+.list-item{
+    margin-left: 25px;
+}
+
+a:hover{
+    color: lightgrey;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
